@@ -28,7 +28,7 @@
   "paths": {
     "bitmaps_reference": "backstop_data/bitmaps_reference",
     "bitmaps_test": "tests/images",
-	"ci_report": "tests/ci",
+	"ci_report": "tests",
 	"html_report": "tests/html"
   },
   "engine": "chrome",

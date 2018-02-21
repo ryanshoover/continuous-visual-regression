@@ -25,10 +25,8 @@ jobs:
       # run tests!
       - run:     yarn test
 
-      - run:     mv tests ~/tests
-
       - store_test_results:
-          path:  ~/tests
+          path:  ~/project/tests
 
       - store_artifacts:
-          path: ~/tests
+          path: ~/project/tests
