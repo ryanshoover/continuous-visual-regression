@@ -25,5 +25,6 @@
 	"html_report": "tests/html"
   },
   "engine": "chrome",
-  "report": [ "browser", "CI" ]
+  "report": [ "browser", "CI" ],
+  "debug": true
 }
