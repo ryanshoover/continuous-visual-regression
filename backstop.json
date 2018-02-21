@@ -1,11 +1,6 @@
 {
   "viewports": [
     {
-      "name": "phone",
-      "width": 320,
-      "height": 480
-    },
-    {
       "name": "desktop",
       "width": 1920,
       "height": 1080
@@ -18,12 +13,9 @@
 	  "referenceUrl": "http://foxinsocks.wpengine.com",
       "hideSelectors": [],
       "selectors": [
-        "document",
-        ".entry-title"
-      ],
-      "readyEvent": null,
-      "delay": 1500,
-      "misMatchThreshold" : 0.1
+        "document"
+	  ],
+      "delay": 500
     }
   ],
   "paths": {
@@ -33,6 +25,5 @@
 	"html_report": "tests/html"
   },
   "engine": "chrome",
-  "report": [ "browser", "CI" ],
-  "debug": false
+  "report": [ "browser", "CI" ]
 }
