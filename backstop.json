@@ -33,5 +33,5 @@
   },
   "engine": "chrome",
   "report": [ "browser", "CI" ],
-  "debug": false,
+  "debug": false
 }
