@@ -1,11 +1,10 @@
-import gulp from 'gulp';
-import backstopjs from 'backstopjs';
+const gulp = require( 'gulp' );
+const backstopjs = require( 'backstopjs' );
 
 const backstopConfig = {
 	config: 'backstop.json',
 };
 
-// Run visual regression tests for both mobile and Desktop
-export const backstopTest = () => backstopjs( 'test', backstopConfig );
+gulp.task( 'test', () => backstopjs( 'test', backstopConfig ) );
 
-gulp.task( 'test', backstopTest );
+gulp.task( 'default', ['test'] );
