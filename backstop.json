@@ -14,8 +14,7 @@
       "hideSelectors": [],
       "selectors": [
         "document"
-	  ],
-      "delay": 500
+	  ]
     }
   ],
   "paths": {
@@ -25,6 +24,6 @@
 	"html_report": "tests/html"
   },
   "engine": "chrome",
-  "report": [ "browser", "CI" ],
+  "report": [ "CI" ],
   "debug": true
 }

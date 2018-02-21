@@ -6,8 +6,8 @@
   "author": "Ryan Hoover <ryan.hoover@wpengine.com>",
   "license": "MIT",
   "scripts": {
-    "reference": "node_modules/.bin/backstop reference",
-    "test": "node_modules/.bin/backstop test"
+    "reference": "./node_modules/.bin/backstop reference",
+    "test": "./node_modules/.bin/backstop test"
   },
   "dependencies": {
     "backstopjs": "^3.1.19"
