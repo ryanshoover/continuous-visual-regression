@@ -22,8 +22,11 @@ jobs:
             - node_modules
           key:   v1-dependencies-{{ checksum "package.json" }}
 
-      # run tests!
-      - run:     yarn test
+      # build reference images
+      - run:     yarn run reference
+
+      # run tests
+      - run:     yarn run test
 
       - store_test_results:
           path:  ~/project/tests

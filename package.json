@@ -6,6 +6,7 @@
   "author": "Ryan Hoover <ryan.hoover@wpengine.com>",
   "license": "MIT",
   "scripts": {
+    "reference": "node_modules/.bin/gulp reference",
     "test": "node_modules/.bin/gulp test"
   },
   "dependencies": {

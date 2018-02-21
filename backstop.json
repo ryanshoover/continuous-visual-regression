@@ -15,6 +15,7 @@
     {
       "label": "Homepage",
       "url": "http://foxinsocks.wpengine.com/",
+	  "referenceUrl": "http://foxinsocks.wpengine.com",
       "hideSelectors": [],
       "selectors": [
         "document",
